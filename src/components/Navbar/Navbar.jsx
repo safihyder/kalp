@@ -14,10 +14,10 @@ const [list, setlist] = useState({
 useEffect(() => {
   if(size.width < 440){
       setlist({
-          home: <img src='./public/home.png' className='w-5 h-5' alt=''/>,
-          feed: <img src='./public/feed.png' className='w-5 h-5' alt=''/>,
-          contact: <img src='./public/contact.png' className='w-5 h-5' alt=''/>,
-          about: <img src='./public/about.png' className='w-5 h-5' alt=''/>
+          home: <img src='./home.png' className='w-5 h-5' alt=''/>,
+          feed: <img src='./feed.png' className='w-5 h-5' alt=''/>,
+          contact: <img src='./contact.png' className='w-5 h-5' alt=''/>,
+          about: <img src='./about.png' className='w-5 h-5' alt=''/>
       })
   }else{
       setlist({
