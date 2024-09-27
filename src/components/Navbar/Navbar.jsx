@@ -36,7 +36,7 @@ useEffect(() => {
                         <li onClick={() => scrollToSection(home)} className=' cursor-pointer'> {list.home}</li>
                         <li onClick={() => scrollToSection(feed)}  className=' cursor-pointer'>{list.feed}</li>
                         <li onClick={() => scrollToSection(home)}  className=' cursor-pointer'> 
-                     <Link to='/'><img src="./public/kalpLogo.png" className="w-10 h-10" alt="" /></Link> </li>
+                     <Link to='/'><img src="./kalplogo.png" className="w-10 h-10" alt="" /></Link> </li>
                         <li onClick={() => scrollToSection(contact)}  className=' cursor-pointer'>{list.contact}</li>
                         <li onClick={() => scrollToSection(about)}  className=' cursor-pointer'> {list.about}</li>
                         </ul>
