@@ -45,7 +45,7 @@ const Intro = () => {
   return (
         <div className=' flex flex-col tablet:flex-row items-center justify-self-auto laptop:justify-around tablet:h-[90vh] h-fit'>
             {/* <img className='h-[400px]' src="./kalpLogo.png" alt="" /> */}
-            <main className='flex justify-center w-[100%] tablet:w-[50%] h-fit tablet:h-[100%]'>
+            <main className='flex justify-center w-[100%] tablet:w-[50%] h-[50vh] tablet:h-[100%]'>
             <Spline scene="https://prod.spline.design/RRe5X8uqf3PJULtk/scene.splinecode"
              />
               {/* <Canvas frameloop="demand" camera={{ position: [-4, 3, 6], fov: 45, near: 0.1, far: 200 }}> 
