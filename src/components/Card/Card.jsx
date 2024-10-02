@@ -1,18 +1,21 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from 'react-router-dom'
 
-const Card = ({heeading,content,mon,day,img}) => {
+const Card = ({heading,content,img}) => {
   return (
     <StyledWrapper>
       <div className="parent">
         <div className="card">
           <img className="card-img" src={img} alt="" />
           <div className="content-box">
-            <span className="card-title">{heeading}</span>
+            <span className="card-title">{heading.split('-').map(e => e[0].toUpperCase() + e.slice(1) + ' ')}</span>
             <p className="card-content">
               {content}
             </p>
-            <span className="see-more">See More</span>
+            <Link className="see-more" to={`/feed/${heading}`} >
+            See More
+            </Link>
           </div>
           {/* <div className="date-box">
             <span className="month">JUNE</span>
@@ -92,7 +95,7 @@ const StyledWrapper = styled.div`
   transform: translate3d(0px, 0px, 60px);
 }
 
-.content-box .see-more {
+.see-more {
   cursor: pointer;
   margin-top: 1rem;
   display: inline-block;
@@ -107,7 +110,7 @@ const StyledWrapper = styled.div`
   transform: translate3d(0px, 0px, 20px);
 }
 
-.content-box .see-more:hover {
+ .see-more:hover {
   transform: translate3d(0px, 0px, 60px);
 }
 

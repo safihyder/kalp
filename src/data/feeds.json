@@ -1,0 +1,21 @@
+[
+    {
+        "heading": "sunday-class",
+        "img": "/SundayClass.png",
+        "content": "Imam Mehdi (aj) and our responsibilities",
+        "detailContent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum sit praesentium quas voluptates architecto quibusdam dolores illum cupiditate odio aut, quia ab cumque perferendis rerum nihil neque. Voluptatum amet, iste expedita quasi ex non Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ducimus inventore, aliquid amet alias velit odio porro eum nesciunt voluptas iure quis enim saepe facere! Iusto repellat tenetur doloremque voluptatibus!"
+    },
+    {
+        "heading": "book-reading",
+        "img": "/bookreading.png",
+        "content": "Give your 15 minutes for everyday book reading",
+        "detailContent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum sit praesentium quas voluptates architecto quibusdam dolores illum cupiditate odio aut, quia ab cumque perferendis rerum nihil neque. Voluptatum amet, iste expedita quasi ex non Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ducimus inventore, aliquid amet alias velit odio porro eum nesciunt voluptas iure quis enim saepe facere! Iusto repellat tenetur doloremque voluptatibus!"
+    },
+    {
+        "heading": "ali-day",
+        "img": "/aliday.png",
+        "content": "Ali(as) day is an initiative to remark the attributes of Imam Ali (as) among children",
+        "detailContent":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum sit praesentium quas voluptates architecto quibusdam dolores illum cupiditate odio aut, quia ab cumque perferendis rerum nihil neque. Voluptatum amet, iste expedita quasi ex non Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ducimus inventore, aliquid amet alias velit odio porro eum nesciunt voluptas iure quis enim saepe facere! Iusto repellat tenetur doloremque voluptatibus!"
+    }
+]
+
