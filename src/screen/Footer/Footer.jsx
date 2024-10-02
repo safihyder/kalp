@@ -2,7 +2,6 @@ import React from 'react'
 import SocialIcons from '../../components/SocialIcons/SocialIcons'
 
 const Footer = () => {
-  
   return (
     <div className='flex flex-row justify-around h-[80vh]  pt-10 relative mb-32' >
         <div className='flex flex-col items-center justify-center'>

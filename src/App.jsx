@@ -40,8 +40,8 @@ function App() {
     <Feed ref={feed}/>
     <Contact ref={contact}/>
     <About ref={about}/>
-    <Footer />
     <hr />
+    <Footer />
   </>
   )
 }
